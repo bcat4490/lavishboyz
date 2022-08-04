@@ -1,7 +1,29 @@
-html {
-    height: 100%;
-}
+
 
 body {
     background-color: black;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px 25px 15px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto; 
+}
+
+p {
+    text-align: center;
+    color: rgb(21, 255, 0);
+    font-family: 'Ultra', serif;
+    font-size: 2em;
+}
+
+i {
+    color:rgb(21, 255, 0);
 }
