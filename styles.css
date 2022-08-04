@@ -1,7 +1,13 @@
-
+html, body {
+    height: 100%;
+}
 
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start; 
+    align-items: center;
 }
 
 #main {
@@ -10,9 +16,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px 15px 25px 15px;
+    flex: 1;
 }
 
 #logo {
+    width: 375px;
     max-width: 100%;
     height: auto; 
 }
@@ -22,6 +30,7 @@ p {
     color: rgb(21, 255, 0);
     font-family: 'Ultra', serif;
     font-size: 2em;
+    flex: 1;
 }
 
 i {
